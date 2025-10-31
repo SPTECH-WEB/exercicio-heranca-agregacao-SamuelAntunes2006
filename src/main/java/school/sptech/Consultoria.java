@@ -81,7 +81,7 @@ public class Consultoria {
     public Integer qtdDesenvolvedoresMobile() {
         int total = 0;
         for (Desenvolvedor d : desenvolvedores) {
-            if (d instanceof school.sptech.especialistas.DesenvolvedorMobile) {
+            if (d instanceof DesenvolvedorMobile) {
                 total++;
             }
         }
